@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, transparent, #009688);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-box {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-1,
+.col-2 {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.col-1 img {
+    width: 100%;
+}
+
+.col-2 {
+    width: 100%;
+    background-color: #fff;
+}
+
+form {
+    margin: 60px;
+}
+
+#special {
+    margin-top: 10px;
+}
+
+.google {
+    display: flex;
+    width: 100%;
+    border: 2px solid rgb(219, 20, 53);
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 30px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.gImage {
+    flex-basis: 10%;
+    display: flex;
+}
+
+.gImage img {
+    width: 100%;
+    align-items: center;
+}
+
+.cont {
+    margin-left: 10px;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.inputs>h4 {
+    margin-bottom: 5px;
+    text-indent: 2px;
+    font-weight: normal;
+    font-weight: lighter;
+}
+
+.input-field {
+    border: 2px solid rgb(219, 20, 53);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    border: none;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.red {
+    color: rgb(219, 20, 53);
+    cursor: pointer;
+}
+
+.input-field:focus {
+    border: none;
+    border: 2px solid blue;
+}
+
+.submit {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(219, 20, 53);
+    padding: 12px 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
